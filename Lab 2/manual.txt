@@ -1,0 +1,31 @@
+productDB
+> db.createCollection("Product");
+{ "ok" : 1 }
+> db.Product.insert({"productID":1,"productName":"iPhone","productCost":85000,"productDesc":"awesome smartphone"});
+WriteResult({ "nInserted" : 1 })
+> db.Product.insert({"productID":2,"productName":"Rolex","productCost":120000,"productDesc":"luxury watch"});
+WriteResult({ "nInserted" : 1 })
+> db.Product.insert({"productID":3,"productName":"Zodiac","productCost":4000,"productDesc":"gorgeous shirt"});
+WriteResult({ "nInserted" : 1 })
+> db.Product.find().pretty();
+{
+        "_id" : ObjectId("5b75198cb4cc98c7c3188332"),
+        "productID" : 1,
+        "productName" : "iPhone",
+        "productCost" : 85000,
+        "productDesc" : "awesome smartphone"
+}
+{
+        "_id" : ObjectId("5b7519acb4cc98c7c3188333"),
+        "productID" : 2,
+        "productName" : "Rolex",
+        "productCost" : 120000,
+        "productDesc" : "luxury watch"
+}
+{
+        "_id" : ObjectId("5b751a0bb4cc98c7c3188334"),
+        "productID" : 3,
+        "productName" : "Zodiac",
+        "productCost" : 4000,
+        "productDesc" : "gorgeous shirt"
+}

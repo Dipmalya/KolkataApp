@@ -1,0 +1,12 @@
+{
+  "name": "lab1.3",
+  "version": "1.0.0",
+  "description": "Lab 1.3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
+  },
+  "author": "Dipmalya Sen",
+  "license": "ISC"
+}
