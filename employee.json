@@ -1,0 +1,82 @@
+[
+    {
+        "_id": "5b753fde49abc90768faeb5f",
+        "empId": 1001,
+        "empName": "Jack",
+        "empSalary": 40000,
+        "empAddress": {
+            "city": "Pune",
+            "state": "Maharashtra"
+        }
+    },
+    {
+        "_id": "5b753fde49abc90768faeb60",
+        "empId": 1002,
+        "empName": "Jill",
+        "empSalary": 42000,
+        "empAddress": {
+            "city": "Nashik",
+            "state": "Maharashtra"
+        }
+    },
+    {
+        "_id": "5b753fde49abc90768faeb61",
+        "empId": 1003,
+        "empName": "Sebastian",
+        "empSalary": 14000,
+        "empAddress": {
+            "city": "Agra",
+            "state": "Uttar Pradesh"
+        }
+    },
+    {
+        "_id": "5b753fde49abc90768faeb62",
+        "empId": 1004,
+        "empName": "Jessica",
+        "empSalary": 30000,
+        "empAddress": {
+            "city": "Lucknow",
+            "state": "Uttar Pradesh"
+        }
+    },
+    {
+        "_id": "5b753fde49abc90768faeb63",
+        "empId": 1005,
+        "empName": "Terena",
+        "empSalary": 45000,
+        "empAddress": {
+            "city": "Kolkata",
+            "state": "California"
+        }
+    },
+    {
+        "_id": "5b753fde49abc90768faeb64",
+        "empId": 1006,
+        "empName": "Aadel",
+        "empSalary": 50000,
+        "empAddress": {
+            "city": "San Jose",
+            "state": "California"
+        }
+    },
+    {
+        "_id": "5b753fde49abc90768faeb65",
+        "empId": 1007,
+        "empName": "Dipmalya Sen",
+        "empSalary": 15505,
+        "empAddress": {
+            "city": "Talwade",
+            "state": "Maharashtra"
+        }
+    },
+    {
+        "empId": 1008,
+        "empName": "Soumyodipta Majumdar",
+        "empSalary": 15505,
+        "empAddress": {
+            "city": "Khardah",
+            "state": "West Bengal"
+        },
+        "_id": "5b754269c0a04c27685fd7aa"
+    }
+]
